@@ -29,11 +29,7 @@ struct AddGameView: View {
             ForEach(answers.indices, id: \.self) { index in
                 TextField("Answer \(index + 1)", text: $answers[index])
             }
-            Button("Add Answer") {
-                if answers.count < 4 {
-                    answers.append("")
-                }
-            }
+        
 
             Picker("Correct Answer", selection: $correctAnswerIndex) {
                 Text("Answer 1").tag(0)
@@ -41,8 +37,11 @@ struct AddGameView: View {
                 Text("Answer 3").tag(2)
                 Text("Answer 4").tag(3)
             }.pickerStyle(SegmentedPickerStyle())
-
-            TextField("Timer", text: $timer)
+            HStack{
+                Text("Set Timer:")
+                TextField("Timer", text: $timer)
+            }
+           
 
             Button("Add Game") {
                 let gameQuestion = Question(questionText: questionText, questionAnswers: answers, correctAnswerIndex: correctAnswerIndex, timer: timer)
