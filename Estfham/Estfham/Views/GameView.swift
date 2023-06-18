@@ -115,7 +115,7 @@ struct GameView: View {
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
         let gameManager = GameManager()
-        let game = Game(gameName: "Game 1", gameQuestions: [Question(questionText: "What is SwiftUI?", questionAnswers: ["A UI Framework", "A game", "A language", "An IDE"], correctAnswerIndex: 0, timer: "30")], players: ["Player1", "Player2"])
+        let game = Game(gameName: "Game 1", gameQuestions: [Question(questionText: "What is SwiftUI?", questionAnswers: ["A UI Framework", "A game", "A language", "An IDE"], correctAnswerIndex: 0, timer: "30")], players: ["Player1", "Player2"], creatorUserId: "mockUserId")
         GameView(gameManager: gameManager, game: game)
     }
 }

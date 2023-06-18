@@ -47,7 +47,8 @@ struct AddGameView: View {
             Button("Add Game") {
                 let gameQuestion = Question(questionText: questionText, questionAnswers: answers, correctAnswerIndex: correctAnswerIndex, timer: timer)
                 
-                let game = Game(gameName: gameName, gameQuestions: [gameQuestion], players: players)
+                // Make sure to provide the creatorUserId here
+                let game = Game(gameName: gameName, gameQuestions: [gameQuestion], players: players, creatorUserId: Auth.auth().currentUser?.uid ?? "")
                 firestoreManager.addGame(game: game) { (success, error) in
                     if let error = error {
                         print("Failed to add game: \(error)")

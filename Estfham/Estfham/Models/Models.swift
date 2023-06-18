@@ -9,8 +9,8 @@ struct Game: Codable, Identifiable {
     var gameName: String
     var gameQuestions: [Question]
     var players: [String]
+    var creatorUserId: String  // New field for the user ID of the game's creator
 }
-
 struct Question: Codable {
     var questionText: String
     var questionAnswers: [String]

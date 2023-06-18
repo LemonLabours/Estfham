@@ -4,13 +4,14 @@ import FirebaseFirestore
 import FirebaseFirestoreSwift
 
 
-class FirestoreManager: ObservableObject {
+final class FirestoreManager: ObservableObject {
     private let db = Firestore.firestore()
 
     @Published var games = [Game]()
 
     func fetchGames() {
-        db.collection("games").addSnapshotListener { (snapshot, error) in
+        guard let userId = Auth.auth().currentUser?.uid else { return }
+        db.collection("games").whereField("creatorUserId", isEqualTo: userId).addSnapshotListener { (snapshot, error) in
             if let error = error {
                 print("Error fetching games: \(error)")
                 return
@@ -31,9 +32,12 @@ class FirestoreManager: ObservableObject {
             }
         }
     }
+
     func addGame(game: Game, completion: @escaping (Bool, Error?) -> Void) {
+        var gameWithCreator = game
+        gameWithCreator.creatorUserId = Auth.auth().currentUser?.uid ?? ""
         do {
-            let _ = try db.collection("games").addDocument(from: game)
+            let _ = try db.collection("games").addDocument(from: gameWithCreator)
             completion(true, nil)
         } catch let error {
             print("Error writing game to Firestore: \(error)")
@@ -41,4 +45,3 @@ class FirestoreManager: ObservableObject {
         }
     }
 }
-
