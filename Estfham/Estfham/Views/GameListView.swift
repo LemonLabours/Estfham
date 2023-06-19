@@ -2,20 +2,39 @@ import SwiftUI
 import Firebase
 import FirebaseFirestore
 import FirebaseFirestoreSwift
-
+import MultipeerConnectivity
 
 struct GameListView: View {
     @ObservedObject var gameManager: GameManager
     let games: [Game]
-    
+
     var body: some View {
         NavigationView {
-            List(games) { game in
-                NavigationLink(destination: GameView(gameManager: gameManager, game: game)) {
-                    Text(game.gameName)
+            VStack {
+                List(games) { game in
+                    NavigationLink(destination: GameView(gameManager: gameManager, game: game)) {
+                        Text(game.gameName)
+                    }
+                }
+                .navigationTitle("Games")
+
+                HStack {
+                    Button("Host Game") {
+                        gameManager.hostGame()
+                    }
+
+                    Button("Join Game") {
+                        gameManager.joinGame()
+                    }
+                }
+                .alert(isPresented: $gameManager.showAlert) {
+                    Alert(
+                        title: Text("Error"),
+                        message: Text(gameManager.alertMessage),
+                        dismissButton: .default(Text("OK"))
+                    )
                 }
             }
-            .navigationTitle("Games")
         }
     }
 }

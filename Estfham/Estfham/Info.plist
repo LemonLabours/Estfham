@@ -15,5 +15,10 @@
 			</array>
 		</dict>
 	</array>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_estfham._udp</string>
+		<string>_estfham._tcp</string>
+	</array>
 </dict>
 </plist>

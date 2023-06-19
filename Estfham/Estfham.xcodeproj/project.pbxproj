@@ -30,6 +30,7 @@
 		A9FA3B032A3ECC890076D776 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B022A3ECC890076D776 /* GameView.swift */; };
 		A9FA3B052A3ECCB20076D776 /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B042A3ECCB20076D776 /* AddGameView.swift */; };
 		A9FA3B072A3EE7740076D776 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B062A3EE7740076D776 /* GameManager.swift */; };
+		A9FA3B0C2A3FC43B0076D776 /* MultipeerConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B0B2A3FC43B0076D776 /* MultipeerConnectivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		A9FA3B022A3ECC890076D776 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		A9FA3B042A3ECCB20076D776 /* AddGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
 		A9FA3B062A3EE7740076D776 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		A9FA3B0B2A3FC43B0076D776 /* MultipeerConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,8 @@
 		A9FA3ADD2A3E68F50076D776 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A9FA3B0A2A3F23A50076D776 /* Components */,
+				A9FA3B092A3F239C0076D776 /* MainViews */,
 				A9FA3AF12A3E71330076D776 /* Test.swift */,
 				A9FA3AF82A3E86000076D776 /* GoogleAuthView.swift */,
 				A9FA3AFC2A3ECBBB0076D776 /* ContentView.swift */,
@@ -144,11 +148,50 @@
 		A9FA3AE42A3E69DB0076D776 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				A9FA3AEB2A3E6A8A0076D776 /* FirestoreManager.swift */,
-				A9FA3AF32A3E85470076D776 /* Applicaiton_utility.swift */,
-				A9FA3B062A3EE7740076D776 /* GameManager.swift */,
+				A9FA3B0F2A400FC80076D776 /* FireStore */,
+				A9FA3B0E2A400FA50076D776 /* Authentication */,
+				A9FA3B0D2A400F7D0076D776 /* MPC */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		A9FA3B092A3F239C0076D776 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		A9FA3B0A2A3F23A50076D776 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A9FA3B0D2A400F7D0076D776 /* MPC */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3B0B2A3FC43B0076D776 /* MultipeerConnectivity.swift */,
+			);
+			path = MPC;
+			sourceTree = "<group>";
+		};
+		A9FA3B0E2A400FA50076D776 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3AF32A3E85470076D776 /* Applicaiton_utility.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		A9FA3B0F2A400FC80076D776 /* FireStore */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3AEB2A3E6A8A0076D776 /* FirestoreManager.swift */,
+				A9FA3B062A3EE7740076D776 /* GameManager.swift */,
+			);
+			path = FireStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +280,7 @@
 			files = (
 				A9FA3AF92A3E86000076D776 /* GoogleAuthView.swift in Sources */,
 				A9FA3AF22A3E71330076D776 /* Test.swift in Sources */,
+				A9FA3B0C2A3FC43B0076D776 /* MultipeerConnectivity.swift in Sources */,
 				A9FA3B012A3ECC680076D776 /* PlayerNameView.swift in Sources */,
 				A9FA3AFD2A3ECBBB0076D776 /* ContentView.swift in Sources */,
 				A9FA3AF42A3E85470076D776 /* Applicaiton_utility.swift in Sources */,
@@ -380,6 +424,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Estfham/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We Need your data to discover nearby devices";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -410,6 +455,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Estfham/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We Need your data to discover nearby devices";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
