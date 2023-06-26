@@ -1,4 +1,6 @@
+# Estfham App
 
+## Description
 Introducing Estfham, the ultimate tool to create, share, and enjoy fun and engaging quizzes!
 
 With Estfham, you can easily design your own quizzes by adding questions and choosing four potential answers. Whether you're a teacher creating a test, a business organizing a team-building activity, or someone who just loves trivia, our intuitive interface will make your quiz creation process a breeze.
@@ -10,3 +12,12 @@ As the Estfham Quiz Creator, you can monitor the live results as participants ma
 Estfham is perfect for educational environments, corporate settings, social gatherings, and even remote events. It's more than just a quiz app; it's a way to connect, engage, and learn, no matter where you are.
 
 Start your Estfham journey today. The power of knowledge is now at your fingertips!
+## Tools Used
+- Figma
+- Firebase Google Authentication 
+- Firebase FireStore Database 
+- Lottie Animations
+
+## Database Tree Structure
+
+## Video Demo
