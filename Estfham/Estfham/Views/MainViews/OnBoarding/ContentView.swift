@@ -14,17 +14,37 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                if isLoading {
-                    ProgressView()
-                        .navigationTitle("Loading...")
-                } else if !userName.isEmpty {
-                    WelcomeView(userName: $userName)
-                        .navigationTitle("Quiz App")
-                } else {
-                    UserNameInputView(tempUserName: $tempUserName, userName: $userName, saveUserName: saveUserName)
-                        .navigationTitle("Quiz App")
-                }
+                Color.EPurple
+                    .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))
+                    .edgesIgnoringSafeArea(.all)
+                
+       
+                LottieView(name: Constants.home, size: CGSize(width: 300, height: 300))
+                    .padding(.bottom, 400)
+                
+                RoundedRectangle(cornerRadius: 35)
+                    .padding(.top, 300)
+                    .foregroundColor(.white)
+                    .frame(width: 400, height: 900 )
+                    .presentationDetents([.medium, .fraction((0.40))])
+                
+                Spacer()
+                
+                VStack{
+                    
+                    if isLoading {
+                        ProgressView()
+                           
+                    } else if !userName.isEmpty {
+                        WelcomeView(userName: $userName)
+                            
+                    } else {
+                        UserNameInputView(tempUserName: $tempUserName, userName: $userName, saveUserName: saveUserName)
+                          
+                    }
+                  }
             }
+
         }
         .onAppear(perform: loadUserName)
     }
@@ -53,66 +73,6 @@ struct ContentView: View {
     }
 }
 
-struct WelcomeView: View {
-    @Binding var userName: String
-
-    var body: some View {
-        VStack {
-            Text("Hi, \(userName)")
-                .font(.title)
-                .fontWeight(.bold)
-                .padding(.bottom, 20)
-
-            NavigationLink(destination: MyQuizzesView()) {
-                ActionButton(title: "My Quizzes")
-            }
-            .padding(.bottom, 10)
-
-            NavigationLink(destination: JoinQuizView()) {
-                ActionButton(title: "Join a Quiz")
-            }
-        }
-        .padding()
-    }
-}
-
-struct UserNameInputView: View {
-    @Binding var tempUserName: String
-    @Binding var userName: String
-    var saveUserName: () -> Void
-
-    var body: some View {
-        VStack(spacing: 20) {
-            Text("Enter Your Name")
-                .font(.title)
-                .fontWeight(.bold)
-
-            TextField("Name", text: $tempUserName)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding(.horizontal)
-
-            Button(action: {
-                self.userName = tempUserName
-                saveUserName()
-            }) {
-                ActionButton(title: "Save")
-            }
-        }
-    }
-}
-
-struct ActionButton: View {
-    var title: String
-
-    var body: some View {
-        Text(title)
-            .foregroundColor(.white)
-            .padding()
-            .frame(maxWidth: .infinity)
-            .background(Color.blue)
-            .cornerRadius(10)
-    }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

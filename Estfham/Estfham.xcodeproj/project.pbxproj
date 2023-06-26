@@ -19,18 +19,33 @@
 		A9FA3AD82A3C9EBF0076D776 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9FA3AD72A3C9EBF0076D776 /* FirebaseFirestoreSwift */; };
 		A9FA3ADA2A3D62FF0076D776 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3AD92A3D62FF0076D776 /* GoogleService-Info.plist */; };
 		A9FA3AEC2A3E6A8A0076D776 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3AEB2A3E6A8A0076D776 /* FirestoreManager.swift */; };
-		A9FA3AF22A3E71330076D776 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3AF12A3E71330076D776 /* Test.swift */; };
 		A9FA3AF42A3E85470076D776 /* Applicaiton_utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3AF32A3E85470076D776 /* Applicaiton_utility.swift */; };
 		A9FA3AF62A3E85740076D776 /* GoogleAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3AF52A3E85740076D776 /* GoogleAuthViewModel.swift */; };
-		A9FA3AF92A3E86000076D776 /* GoogleAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3AF82A3E86000076D776 /* GoogleAuthView.swift */; };
 		A9FA3AFB2A3ECB720076D776 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3AFA2A3ECB720076D776 /* Models.swift */; };
 		A9FA3AFD2A3ECBBB0076D776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3AFC2A3ECBBB0076D776 /* ContentView.swift */; };
-		A9FA3AFF2A3ECC0B0076D776 /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3AFE2A3ECC0B0076D776 /* GameListView.swift */; };
-		A9FA3B012A3ECC680076D776 /* PlayerNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B002A3ECC680076D776 /* PlayerNameView.swift */; };
-		A9FA3B032A3ECC890076D776 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B022A3ECC890076D776 /* GameView.swift */; };
-		A9FA3B052A3ECCB20076D776 /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B042A3ECCB20076D776 /* AddGameView.swift */; };
-		A9FA3B072A3EE7740076D776 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B062A3EE7740076D776 /* GameManager.swift */; };
-		A9FA3B0C2A3FC43B0076D776 /* MultipeerConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B0B2A3FC43B0076D776 /* MultipeerConnectivity.swift */; };
+		A9FA3B182A4054010076D776 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B172A4054010076D776 /* SplashView.swift */; };
+		A9FA3B1B2A405C1A0076D776 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A9FA3B1A2A405C1A0076D776 /* Lottie */; };
+		A9FA3B1E2A405CC80076D776 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B1D2A405CC80076D776 /* Colors.swift */; };
+		A9FA3B202A405E320076D776 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B1F2A405E320076D776 /* LottieView.swift */; };
+		A9FA3B232A405EED0076D776 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B222A405EED0076D776 /* quiz.json */; };
+		A9FA3B252A405F360076D776 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B242A405F360076D776 /* Constants.swift */; };
+		A9FA3B272A406C130076D776 /* OnBoardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B262A406C130076D776 /* OnBoardingModel.swift */; };
+		A9FA3B292A4073BB0076D776 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B282A4073BB0076D776 /* OnBoardingView.swift */; };
+		A9FA3B2B2A407E480076D776 /* share.json in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B2A2A407E480076D776 /* share.json */; };
+		A9FA3B2D2A407E4E0076D776 /* girl.json in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B2C2A407E4E0076D776 /* girl.json */; };
+		A9FA3B362A411D990076D776 /* responsive.json in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B352A411D990076D776 /* responsive.json */; };
+		A9FA3B3A2A4164A00076D776 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B392A4164A00076D776 /* OnBoardingViewModel.swift */; };
+		A9FA3B3C2A418B560076D776 /* CreateQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B3B2A418B560076D776 /* CreateQuizView.swift */; };
+		A9FA3B3E2A418D8B0076D776 /* MyQuizzesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B3D2A418D8B0076D776 /* MyQuizzesView.swift */; };
+		A9FA3B402A418D9E0076D776 /* JoinQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B3F2A418D9E0076D776 /* JoinQuizView.swift */; };
+		A9FA3B422A418DE80076D776 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B412A418DE80076D776 /* QuizView.swift */; };
+		A9FA3B442A419B630076D776 /* QuizDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B432A419B630076D776 /* QuizDetailView.swift */; };
+		A9FA3B462A42B7D00076D776 /* online.json in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B452A42B7D00076D776 /* online.json */; };
+		A9FA3B4B2A4356A20076D776 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = A9FA3B4A2A4356A20076D776 /* PopupView */; };
+		A9FA3B4D2A43A93E0076D776 /* QuizDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B4C2A43A93E0076D776 /* QuizDetailViewModel.swift */; };
+		A9FA3B4F2A43C6120076D776 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B4E2A43C6120076D776 /* ContentViewModel.swift */; };
+		A9FA3B532A43CCDB0076D776 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B522A43CCDB0076D776 /* home.json */; };
+		A9FA3B592A4409210076D776 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B582A4409210076D776 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,19 +55,32 @@
 		A9FA3AC22A3C9E570076D776 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9FA3AD92A3D62FF0076D776 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A9FA3AEB2A3E6A8A0076D776 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
-		A9FA3AF12A3E71330076D776 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		A9FA3AF32A3E85470076D776 /* Applicaiton_utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applicaiton_utility.swift; sourceTree = "<group>"; };
 		A9FA3AF52A3E85740076D776 /* GoogleAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthViewModel.swift; sourceTree = "<group>"; };
 		A9FA3AF72A3E85B40076D776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		A9FA3AF82A3E86000076D776 /* GoogleAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthView.swift; sourceTree = "<group>"; };
 		A9FA3AFA2A3ECB720076D776 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		A9FA3AFC2A3ECBBB0076D776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A9FA3AFE2A3ECC0B0076D776 /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
-		A9FA3B002A3ECC680076D776 /* PlayerNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNameView.swift; sourceTree = "<group>"; };
-		A9FA3B022A3ECC890076D776 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
-		A9FA3B042A3ECCB20076D776 /* AddGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
-		A9FA3B062A3EE7740076D776 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
-		A9FA3B0B2A3FC43B0076D776 /* MultipeerConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivity.swift; sourceTree = "<group>"; };
+		A9FA3B172A4054010076D776 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A9FA3B1D2A405CC80076D776 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A9FA3B1F2A405E320076D776 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		A9FA3B222A405EED0076D776 /* quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
+		A9FA3B242A405F360076D776 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A9FA3B262A406C130076D776 /* OnBoardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingModel.swift; sourceTree = "<group>"; };
+		A9FA3B282A4073BB0076D776 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		A9FA3B2A2A407E480076D776 /* share.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = share.json; sourceTree = "<group>"; };
+		A9FA3B2C2A407E4E0076D776 /* girl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = girl.json; sourceTree = "<group>"; };
+		A9FA3B352A411D990076D776 /* responsive.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = responsive.json; sourceTree = "<group>"; };
+		A9FA3B392A4164A00076D776 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
+		A9FA3B3B2A418B560076D776 /* CreateQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQuizView.swift; sourceTree = "<group>"; };
+		A9FA3B3D2A418D8B0076D776 /* MyQuizzesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQuizzesView.swift; sourceTree = "<group>"; };
+		A9FA3B3F2A418D9E0076D776 /* JoinQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinQuizView.swift; sourceTree = "<group>"; };
+		A9FA3B412A418DE80076D776 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		A9FA3B432A419B630076D776 /* QuizDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizDetailView.swift; sourceTree = "<group>"; };
+		A9FA3B452A42B7D00076D776 /* online.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = online.json; sourceTree = "<group>"; };
+		A9FA3B4C2A43A93E0076D776 /* QuizDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizDetailViewModel.swift; sourceTree = "<group>"; };
+		A9FA3B4E2A43C6120076D776 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		A9FA3B522A43CCDB0076D776 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
+		A9FA3B582A4409210076D776 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +91,12 @@
 				A9FA3ACB2A3C9E800076D776 /* GoogleSignIn in Frameworks */,
 				A9FA3ACD2A3C9E800076D776 /* GoogleSignInSwift in Frameworks */,
 				A9FA3AD02A3C9EBF0076D776 /* FirebaseAnalytics in Frameworks */,
+				A9FA3B4B2A4356A20076D776 /* PopupView in Frameworks */,
 				A9FA3AD82A3C9EBF0076D776 /* FirebaseFirestoreSwift in Frameworks */,
 				A9FA3AD62A3C9EBF0076D776 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				A9FA3AD42A3C9EBF0076D776 /* FirebaseFirestore in Frameworks */,
 				A9FA3AD22A3C9EBF0076D776 /* FirebaseAuth in Frameworks */,
+				A9FA3B1B2A405C1A0076D776 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				A9FA3AFA2A3ECB720076D776 /* Models.swift */,
+				A9FA3B262A406C130076D776 /* OnBoardingModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -125,6 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				A9FA3AF52A3E85740076D776 /* GoogleAuthViewModel.swift */,
+				A9FA3B392A4164A00076D776 /* OnBoardingViewModel.swift */,
+				A9FA3B4C2A43A93E0076D776 /* QuizDetailViewModel.swift */,
+				A9FA3B4E2A43C6120076D776 /* ContentViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -134,13 +168,6 @@
 			children = (
 				A9FA3B0A2A3F23A50076D776 /* Components */,
 				A9FA3B092A3F239C0076D776 /* MainViews */,
-				A9FA3AF12A3E71330076D776 /* Test.swift */,
-				A9FA3AF82A3E86000076D776 /* GoogleAuthView.swift */,
-				A9FA3AFC2A3ECBBB0076D776 /* ContentView.swift */,
-				A9FA3AFE2A3ECC0B0076D776 /* GameListView.swift */,
-				A9FA3B002A3ECC680076D776 /* PlayerNameView.swift */,
-				A9FA3B022A3ECC890076D776 /* GameView.swift */,
-				A9FA3B042A3ECCB20076D776 /* AddGameView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,7 +177,6 @@
 			children = (
 				A9FA3B0F2A400FC80076D776 /* FireStore */,
 				A9FA3B0E2A400FA50076D776 /* Authentication */,
-				A9FA3B0D2A400F7D0076D776 /* MPC */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -158,6 +184,8 @@
 		A9FA3B092A3F239C0076D776 /* MainViews */ = {
 			isa = PBXGroup;
 			children = (
+				A9FA3B302A40A3DD0076D776 /* Quiz */,
+				A9FA3B162A4053D50076D776 /* OnBoarding */,
 			);
 			path = MainViews;
 			sourceTree = "<group>";
@@ -165,16 +193,9 @@
 		A9FA3B0A2A3F23A50076D776 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				A9FA3B1C2A405CAA0076D776 /* Assets */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		A9FA3B0D2A400F7D0076D776 /* MPC */ = {
-			isa = PBXGroup;
-			children = (
-				A9FA3B0B2A3FC43B0076D776 /* MultipeerConnectivity.swift */,
-			);
-			path = MPC;
 			sourceTree = "<group>";
 		};
 		A9FA3B0E2A400FA50076D776 /* Authentication */ = {
@@ -189,9 +210,55 @@
 			isa = PBXGroup;
 			children = (
 				A9FA3AEB2A3E6A8A0076D776 /* FirestoreManager.swift */,
-				A9FA3B062A3EE7740076D776 /* GameManager.swift */,
 			);
 			path = FireStore;
+			sourceTree = "<group>";
+		};
+		A9FA3B162A4053D50076D776 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3B172A4054010076D776 /* SplashView.swift */,
+				A9FA3B582A4409210076D776 /* SwiftUIView.swift */,
+				A9FA3B282A4073BB0076D776 /* OnBoardingView.swift */,
+				A9FA3AFC2A3ECBBB0076D776 /* ContentView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		A9FA3B1C2A405CAA0076D776 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3B212A405E4F0076D776 /* Lottie */,
+				A9FA3B1D2A405CC80076D776 /* Colors.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A9FA3B212A405E4F0076D776 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3B222A405EED0076D776 /* quiz.json */,
+				A9FA3B2A2A407E480076D776 /* share.json */,
+				A9FA3B2C2A407E4E0076D776 /* girl.json */,
+				A9FA3B452A42B7D00076D776 /* online.json */,
+				A9FA3B522A43CCDB0076D776 /* home.json */,
+				A9FA3B352A411D990076D776 /* responsive.json */,
+				A9FA3B1F2A405E320076D776 /* LottieView.swift */,
+				A9FA3B242A405F360076D776 /* Constants.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		A9FA3B302A40A3DD0076D776 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA3B3B2A418B560076D776 /* CreateQuizView.swift */,
+				A9FA3B3D2A418D8B0076D776 /* MyQuizzesView.swift */,
+				A9FA3B3F2A418D9E0076D776 /* JoinQuizView.swift */,
+				A9FA3B412A418DE80076D776 /* QuizView.swift */,
+				A9FA3B432A419B630076D776 /* QuizDetailView.swift */,
+			);
+			path = Quiz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +285,8 @@
 				A9FA3AD32A3C9EBF0076D776 /* FirebaseFirestore */,
 				A9FA3AD52A3C9EBF0076D776 /* FirebaseFirestoreCombine-Community */,
 				A9FA3AD72A3C9EBF0076D776 /* FirebaseFirestoreSwift */,
+				A9FA3B1A2A405C1A0076D776 /* Lottie */,
+				A9FA3B4A2A4356A20076D776 /* PopupView */,
 			);
 			productName = Estfham;
 			productReference = A9FA3AB82A3C9E560076D776 /* Estfham.app */;
@@ -250,6 +319,8 @@
 			packageReferences = (
 				A9FA3AC92A3C9E800076D776 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				A9FA3ACE2A3C9EBF0076D776 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A9FA3B192A405C1A0076D776 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				A9FA3B492A4356A20076D776 /* XCRemoteSwiftPackageReference "PopupView" */,
 			);
 			productRefGroup = A9FA3AB92A3C9E560076D776 /* Products */;
 			projectDirPath = "";
@@ -265,8 +336,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FA3B2B2A407E480076D776 /* share.json in Resources */,
+				A9FA3B532A43CCDB0076D776 /* home.json in Resources */,
+				A9FA3B2D2A407E4E0076D776 /* girl.json in Resources */,
+				A9FA3B462A42B7D00076D776 /* online.json in Resources */,
 				A9FA3AC32A3C9E570076D776 /* Preview Assets.xcassets in Resources */,
+				A9FA3B362A411D990076D776 /* responsive.json in Resources */,
 				A9FA3AC02A3C9E570076D776 /* Assets.xcassets in Resources */,
+				A9FA3B232A405EED0076D776 /* quiz.json in Resources */,
 				A9FA3ADA2A3D62FF0076D776 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,20 +355,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9FA3AF92A3E86000076D776 /* GoogleAuthView.swift in Sources */,
-				A9FA3AF22A3E71330076D776 /* Test.swift in Sources */,
-				A9FA3B0C2A3FC43B0076D776 /* MultipeerConnectivity.swift in Sources */,
-				A9FA3B012A3ECC680076D776 /* PlayerNameView.swift in Sources */,
+				A9FA3B4D2A43A93E0076D776 /* QuizDetailViewModel.swift in Sources */,
+				A9FA3B272A406C130076D776 /* OnBoardingModel.swift in Sources */,
+				A9FA3B592A4409210076D776 /* SwiftUIView.swift in Sources */,
+				A9FA3B402A418D9E0076D776 /* JoinQuizView.swift in Sources */,
+				A9FA3B292A4073BB0076D776 /* OnBoardingView.swift in Sources */,
+				A9FA3B202A405E320076D776 /* LottieView.swift in Sources */,
+				A9FA3B442A419B630076D776 /* QuizDetailView.swift in Sources */,
 				A9FA3AFD2A3ECBBB0076D776 /* ContentView.swift in Sources */,
+				A9FA3B1E2A405CC80076D776 /* Colors.swift in Sources */,
+				A9FA3B3C2A418B560076D776 /* CreateQuizView.swift in Sources */,
 				A9FA3AF42A3E85470076D776 /* Applicaiton_utility.swift in Sources */,
-				A9FA3B032A3ECC890076D776 /* GameView.swift in Sources */,
-				A9FA3B052A3ECCB20076D776 /* AddGameView.swift in Sources */,
+				A9FA3B252A405F360076D776 /* Constants.swift in Sources */,
+				A9FA3B3A2A4164A00076D776 /* OnBoardingViewModel.swift in Sources */,
 				A9FA3AEC2A3E6A8A0076D776 /* FirestoreManager.swift in Sources */,
+				A9FA3B3E2A418D8B0076D776 /* MyQuizzesView.swift in Sources */,
 				A9FA3AF62A3E85740076D776 /* GoogleAuthViewModel.swift in Sources */,
 				A9FA3ABC2A3C9E560076D776 /* EstfhamApp.swift in Sources */,
+				A9FA3B4F2A43C6120076D776 /* ContentViewModel.swift in Sources */,
 				A9FA3AFB2A3ECB720076D776 /* Models.swift in Sources */,
-				A9FA3AFF2A3ECC0B0076D776 /* GameListView.swift in Sources */,
-				A9FA3B072A3EE7740076D776 /* GameManager.swift in Sources */,
+				A9FA3B422A418DE80076D776 /* QuizView.swift in Sources */,
+				A9FA3B182A4054010076D776 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +598,22 @@
 				minimumVersion = 10.0.0;
 			};
 		};
+		A9FA3B192A405C1A0076D776 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		A9FA3B492A4356A20076D776 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -551,6 +651,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A9FA3ACE2A3C9EBF0076D776 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		A9FA3B1A2A405C1A0076D776 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9FA3B192A405C1A0076D776 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		A9FA3B4A2A4356A20076D776 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9FA3B492A4356A20076D776 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

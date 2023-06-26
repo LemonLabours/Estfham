@@ -1,8 +1,10 @@
-//
-//  OnBoardingModel.swift
-//  Estfham
-//
-//  Created by Lama AL Yousef on 19/06/2023.
-//
+import SwiftUI
 
-import Foundation
+struct Intro: Identifiable{
+    var id = UUID().uuidString
+    var title: String
+    var subTitle: String
+    var lottieAnimationName: String
+    var color: Color
+    var offset: CGSize = .zero
+}

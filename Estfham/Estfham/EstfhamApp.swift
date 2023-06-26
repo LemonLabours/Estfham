@@ -17,7 +17,9 @@ struct EstfhamApp: App {
 
     var body: some Scene {
         WindowGroup {
-            GoogleAuthView()
+            NavigationView{
+                OnBoardingView()
+            }
         }
     }
 }
