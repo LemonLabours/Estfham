@@ -45,7 +45,6 @@
 		A9FA3B4D2A43A93E0076D776 /* QuizDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B4C2A43A93E0076D776 /* QuizDetailViewModel.swift */; };
 		A9FA3B4F2A43C6120076D776 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B4E2A43C6120076D776 /* ContentViewModel.swift */; };
 		A9FA3B532A43CCDB0076D776 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = A9FA3B522A43CCDB0076D776 /* home.json */; };
-		A9FA3B592A4409210076D776 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA3B582A4409210076D776 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,7 +79,6 @@
 		A9FA3B4C2A43A93E0076D776 /* QuizDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizDetailViewModel.swift; sourceTree = "<group>"; };
 		A9FA3B4E2A43C6120076D776 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		A9FA3B522A43CCDB0076D776 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
-		A9FA3B582A4409210076D776 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,7 +216,6 @@
 			isa = PBXGroup;
 			children = (
 				A9FA3B172A4054010076D776 /* SplashView.swift */,
-				A9FA3B582A4409210076D776 /* SwiftUIView.swift */,
 				A9FA3B282A4073BB0076D776 /* OnBoardingView.swift */,
 				A9FA3AFC2A3ECBBB0076D776 /* ContentView.swift */,
 			);
@@ -357,7 +354,6 @@
 			files = (
 				A9FA3B4D2A43A93E0076D776 /* QuizDetailViewModel.swift in Sources */,
 				A9FA3B272A406C130076D776 /* OnBoardingModel.swift in Sources */,
-				A9FA3B592A4409210076D776 /* SwiftUIView.swift in Sources */,
 				A9FA3B402A418D9E0076D776 /* JoinQuizView.swift in Sources */,
 				A9FA3B292A4073BB0076D776 /* OnBoardingView.swift in Sources */,
 				A9FA3B202A405E320076D776 /* LottieView.swift in Sources */,
